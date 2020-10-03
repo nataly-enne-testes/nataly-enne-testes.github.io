@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>O palimpsesto</title>
+</head>
+<body>
+    <!-- Scroll to top of the page [scroll to logo] -->
+    <div data-spy="scroll" data-target="#navbar" data-offset="0">
+        <div id="top" ></div>
+    </div>
+
+    <!-- Navbar  -->
+    <nav id="navbar" class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand logo-exception-scroll" href="#top" >
+            <img src="img/logo.png" width="40" height="71"class="img-logo-nav">
+        </a>
+
+        <button class="navbar-toggler" type="button" id="navToggle">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+        <div class="offcanvas-collapse">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link nav-components" href="#sobre">O palimpsesto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-components" href="#metodologia">Metodologias</a>
+                </li>
+                <!-- Dropdown [display none em mobile] -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"  aria-haspopup="true" aria-expanded="false">Cursos ofertados</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item nav-components" href="#portugues">Língua Portuguesa</a>
+                        <a class="dropdown-item nav-components" href="#prod-textual">Produção Textual</a>
+                        <!-- <div role="separator" class="dropdown-divider"></div> -->
+                        <a class="dropdown-item nav-components" href="#literatura">Literatura</a>
+                    </div> 
+                </li>
+
+                <!-- Mostra apenas em mobile -->
+                <li class="nav-item" id="collapse" style="display: none;">
+                        <a class="nav-link" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+                            Cursos ofertados
+                        </a>
+                    <div class="collapse" id="collapseExample" style="padding-left: 20%;">
+                        <a class="nav-components" href="#portugues">Língua Portuguesa</a>
+                            <a class="nav-components" href="#prod-textual">Produção Textual</a>
+                            <a class="nav-components" href="#literatura">Literatura</a>
+                    </div>
+                </li>
+                <!-- Fim collapse [apenas mobile]-->
+
+                <li class="nav-item">
+                    <a class="nav-link nav-components" href="#comprar">Comprar cursos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <img src="img/logo-w-phrase.png" class="img-fluid logo-phrase" alt="">
+        <img src="img/doodle-coffee.png" alt="" class="top-img" style="display: none;">
+    </div>
+    <!-- Fim navbar -->
+
+    <main>
+        
+        <div data-spy="scroll" data-target="#navbar" data-offset="0">
+            <!-- Sobre o palimpsesto -->
+            <section class="section-left">
+                <div class="">            
+                    <img style="float:right" src="img/doodle-coffee.png" id="img-coffee"/>
+                    <h3 id="sobre" class="titles">O palimpsesto</h4>
+                    <p class="text1">O Palimpsesto é um curso da área de Linguagens que possui caráter interativo e é aplicado na modalidade à distância. Com o objetivo de levar em consideração abordagens lúdicas e que promovam a maior interação por meio das tecnologias, temos como premissa que aprender também pode ser divertido. Dessa maneira, o Palimpsesto passa longe dos sistemas tradicionais dos cursinhos para vestibular, sempre focando na aprendizagem por meio da leitura, da interpretação, da troca de ideias e da escrita e do reconhecimento de variados gêneros textuais, sejam eles verbais ou não-verbais. </p>
+                    <p class="text1">No Palimpsesto, a maior meta é mostrar à sociedade que é possível aprender, ter sucesso na vida escolar (seja por meio da aprovação nos vestibulares ou nas avaliações das escolas) sem precisar ser treinado para isso, muito menos estar sempre sob pressão. Portanto, buscamos sempre formas leves e que tragam satisfação para o aluno, mesmo que não seja sua área favorita para seguir a vida profissional.</p>
+                    <p class="text1">Lembremos sempre: todo ser humano se comunica por meio da linguagem! Ter domínio sobre ela é ter domínio sobre tudo. Então, que tal aprender mais sobre ela conosco?</p>
+                </div>
+            </section>
+            
+            <!-- Metodologias -->
+            <section class="section-right">
+                <div class="">
+                    <img style="float:left" src="img/doodle-div.png" class="mr-5" id="img-div"/>
+                    <div id="div-metodologia">
+                        <h3 id="metodologia" class="titles">Metodologias</h3>
+                        <p class="text2">O Palimpsesto oferece 3 (três) cursos interligados entre si: Língua Portuguesa, Produção Textual e Literatura. Cada curso possui duração de 2h semanais, com horários pré-estabelecidos e divulgados previamente no site.</p>
+                        <p class="text2">Pensando em tornar o ensino à distância prazeroso e dinâmico, o Palimpsesto conta com o auxílio de plataforma digital para chamadas de vídeo e compartilhamento de materiais, sendo estes: jogos, arquivos de mídia, livros, filmes, desafios, entre outros. As aulas serão previamente informadas para os alunos por meio de um grupo no WhatsApp específico para cada turma e de uma mensagem enviada para os e-mails cadastrados. Além do auxílio dessas ferramentas que garantem a rapidez da informação, o curso oferecerá materiais próprios para todos os alunos, de forma que possam acompanhar as aulas e ter acesso a conteúdos extras.</p>
+                        <p class="text2">Estes materiais, inclusos no momento da matrícula, possuirão módulos separados por temáticas, sendo cada uma delas trabalhada diferentemente de acordo com o curso escolhido. Por ser um curso de modalidade à distância, buscamos formas mais dinâmicas para a aprendizagem, oferecendo ao aluno experiências diferenciadas através dos gêneros multimodais.</p>
+                        <p class="text2">Apesar dessa abordagem, haverá simulados trimestralmente, de forma que os alunos possam se familiarizar com os modelos de processos seletivos e reconheçam sua própria evolução no uso da linguagem. Reconhecemos que este fator não impede um bom desenvolvimento no processo de ensino-aprendizagem, muito menos na experiência por meio de nossa abordagem com a língua, a escrita e os textos literários.</p>
+                    </div>
+                    <img src="img/doodle-div.png" class="mr-5" id="img-div-2" style="display: none;"/>
+                </div>
+            </section>
+
+            <div class="container container-cursos" style="margin-top: 25%;">
+                <!-- Cursos ofertados -->
+                <div id="">
+                    <h3 id="cursos" class="titles">Cursos ofertados</h4>
+                    <div class="courses-div">
+                        <h4 id="portugues" class="courses-title">LÍNGUA PORTUGUESA</h4>
+                        <p>O curso de direcionado ao ensino de Língua Portuguesa tem como foco aspectos linguísticos relacionados tanto ao uso da língua na nossa sociedade como aos fatores formais da língua. Neste curso veremos como a língua se manifesta nas nossas vidas, sempre nos voltando ao traço principal, que é o da comunicabilidade. Abarcaremos, então, diversos gêneros textuais de acordo com as temáticas semanais, pois, ao trabalharmos com gêneros, abrimos um espaço amplo para outras formas de enxergar a língua portuguesa. Partindo dos textos e das situações reais de comunicação, além de ferramentas interativas que permitam essas situações, o aluno terá a oportunidade de trabalhar com a linguagem e assimilar seus diversos aspectos, sem a necessidade de decorar normas, mas estudando-as e reconhecendo que elas existem para manter efetiva a comunicação entre os falantes. Acreditamos, portanto, que quando se conhece a língua que se fala, é possível compreender qualquer contexto de uso e assimilar sentidos de forma mais fácil.</p>
+                    </div>
+                    <div class="courses-div">
+                        <h4 id="prod-textual" class="courses-title">PRODUÇÃO TEXTUAL</h4>
+                        <p>O curso de Produção Textual busca garantir aos alunos maior diversidade dos usos da língua portuguesa por meio do texto escrito. Na nossa abordagem, o aluno desenvolve a escrita além da dissertação, conseguindo, por meio da variedade de tipos textuais, estar apto a qualquer produção que exija sua escrita. Portanto, o aluno partirá das temáticas propostas semanalmente pelo programa do curso, além de ter textos de apoio para ajudá-lo. Consideramos primordial a pesquisa para o aumento do arcabouço argumentativo na defesa de um ponto de vista, sendo este ato essencial para a formação do sujeito crítico. As aulas partirão da pesquisa do próprio aluno, do debate e da sugestão de temáticas afins. É um curso indicado para todos aqueles que pretendem ingressar em universidades ou faculdades, para os que buscam melhores rendimentos escolares e aqueles que têm como objetivo melhorar sua prática escrita.</p>
+                    </div>
+                    <div class="courses-div">
+                        <h4 id="literatura" class="courses-title">LITERATURA</h4>
+                        <p>Neste curso, é garantido ao aluno a completa experiência literária. Indo além da historiografia, o Palimpsesto tem como abordagem práticas de leitura literária, além de oficinas e círculos de leitura. Ao utilizarmos ferramentas digitais para facilitar a imersão do leitor nos textos, conseguimos mostrar ao aluno que ler pode ser muito prazeroso, e que, ao ler, ele estará aumentando sua bagagem linguística, contextual, histórica, social e política, ajudando-o em sua formação como sujeito crítico. O texto literário será tomado como peça central deste curso, mas nunca de forma inalterável, pois a contemporaneidade nos mostra que a literatura vai além dos clássicos e dos calhamaços. Dessa forma, o curso de Literatura por nós oferecido traz o aluno a oportunidade de navegar pelos diferentes textos, conhecer a história da literatura, realizar intertextualidades, identificar aspectos da linguagem e trabalhar a interpretação, desenvolvendo-se como leitor literário.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Preços -->
+            <div id="comprar">
+                <h3 class="titles" style="text-align:center">Comprar cursos</h3>
+                <div class="row row-div">
+                    <div class="col-md-auto">
+                        <img src="img/card.png" alt="" class="card-box">
+                        <div class="centered">
+                            <h3 class="titles-buy">Produção<br>Textual</h3>
+                            <p class="">Curso + material</p>
+                            <a class="button">Em breve!</a>
+                        </div>
+                    </div>
+                    <div class="col-md-auto">
+                        <img src="img/card.png" alt="" class="card-box">
+                        <div class="centered">
+                            <h3 class="titles-buy">Literatura<br><br></h3>
+                            <p class="">Curso + material</p>
+                            <a class="button">Em breve!</a>
+                        </div>
+                    </div>
+                    <div class="col-md-auto">
+                        <img src="img/card.png" alt="" class="card-box">
+                        <div class="centered">
+                            <h3 class="titles-buy">Língua<br>Portuguesa</h3>
+                            <p class="">Curso + material</p>
+                            <a class="button">Em breve!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">        
+            <img src="img/doodle-reading.png" alt="" style="float: right;" id="img-reading">
+            <img src="img/doodle-read.png" alt="">
+            <div style="margin-top:55%;"></div>
+        </div>
+
+    </main>
+
+<!-------------------------------------- FOOTER -------------------------------------->
+<footer class="footer grey darken-2" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col" style="margin-bottom: 15%;" id="div-img-footer">
+         <img src="img/logo-w-phrase-footer.png" alt="" id="img-footer">
+        </div>
+        <div id="footer-icons">
+            <!-- Grid column -->
+            <div class="col-md-12">
+               <div class="mb-5 flex-center" >
+                   <!-- Instagram -->
+                   <a class="icons" href="https://www.instagram.com/o_palimpsesto/" target="_blank">
+                       <i class="fab fa-instagram fa-lg white-text mr-md-3 mr-3 fa-2x"></i>
+                   </a>
+                   <!-- Facebook -->
+                   <a class="icons" href="#" target="_blank">
+                       <i class="fab fa-facebook fa-lg white-text mr-md-3 mr-3 fa-2x"></i>
+                   </a>
+                   <!-- Whatsapp -->
+                   <a class="icons" href="#">
+                       <i class="fab fa-whatsapp fa-lg white-text mr-md-3 mr-3 fa-2x"></i>
+                   </a>
+                   <h6 class="h6-footer">
+                        Profª. Yasmin Andrade<br>             
+                        yasminandradealves99@gmail.com   
+                    </h6>
+               </div>
+            <!-- End grid column -->
+           </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <div class="container">
+        <span class="span-copyright">
+            Copyright © 2020 - All Rights Reserved | Desenvolvido por <a href="https://nataly-enne.github.io/" target="_blank"> Nátaly Enne.</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+<!-------------------------------------- END FOOTER -------------------------------------->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/all.js"></script>
+
+</body>
+</html>
+

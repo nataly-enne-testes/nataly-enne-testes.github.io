@@ -1,0 +1,432 @@
+/* Cores:
+#402939
+#75243C
+#9C191F
+#DC790E
+#F4AE01 
+*/
+
+
+/* Import font ABEATBYKAI*/
+@font-face{
+    font-family: abeatbykai;
+    src: url('../fonts/abeatbykai.ttf');
+}
+
+/* Import font MADE-TOMMY */
+@font-face{
+    font-family: made-tommy;
+    src: url('../fonts/made-tommy.otf');
+}
+
+/* All configuration */
+*{
+    scroll-behavior: auto;
+    color: #402939;
+}
+
+/* Set background */
+body{
+    background-image: url('../img/bk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Set icons [footer] hover */
+.icons:hover{
+    text-decoration: none;
+    opacity: 80%;
+}
+
+/* Set canvas off desktop */
+.offcanvas-header{ 
+    display: none !important; 
+}
+
+/* Set navbar transparency */
+#navbar{
+    opacity: 80%;
+}
+
+/* Logo page up */
+.logo-phrase{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+}
+
+/* Set menu font */
+.nav-item{
+    font-family: made-tommy;
+}
+
+/* Change background color of dropdown */
+.nav-pills .show>.nav-link {
+    background-color: #75243c67 !important;
+}
+
+/* Remove buy courses menu background color */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: none !important;
+}
+
+/* Set dropdown background color when has click */
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    background-color: #75243c67 !important;
+}
+
+/* Change link colors */
+a{
+    color: #402939 !important;
+    font-size: 20px;
+}
+
+/* Change link hover colors */
+a:hover{
+    color: #75243C !important;
+}
+
+/* Set paragraph size */
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: made-tommy;
+}
+
+/* Set paragraph of O Palimpsesto section*/
+.text1{
+    width: 850px;
+}
+
+/* Adjust text width with padding*/
+#div-metodologia{
+    padding-left: 45%;
+}
+
+/* Section o palimpsesto*/
+.section-left{
+    margin-top: 40%;
+    margin-left: 5%;
+}
+
+/* Section metodologias*/
+.section-right{
+    margin-top: 10% !important;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+/* Images configurations*/
+#img-coffee{
+    margin-right: 10%;
+    margin-top: 5%;
+}
+#img-thinking{
+    padding-right: 5%;
+}
+
+/* Titles configurations */
+.titles{
+    padding-bottom: 25px;
+    font-size: 70px;
+    font-family: abeatbykai;
+}
+
+/* Set courses title*/
+.courses-title{
+    font-size: 30px;
+    font-family: made-tommy;
+    padding: 20px 0 20px 0;
+}
+
+/* Set section 3 color */
+#cursos{
+    color: #F4AE01;
+    text-align: center;
+}
+.courses-div h4, .courses-div p{
+    color: #F4AE01;
+}
+
+/* Set delimitador */
+.courses-div{
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+/* Set section 4 configurations  */
+#comprar{
+    margin-top: 20%;
+}
+#comprar h3{
+    padding-bottom: 100px;
+}
+
+/* Set card orientation */
+.row-div{
+    justify-content: center !important;
+    margin: 0 !important;
+}
+.card-box{
+    width: 400px;
+    padding-right: 40px;
+}
+
+/* Centering contents over card-box */
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center !important;
+}
+.centered h3{
+    padding: 0 !important;
+    font-family: made-tommy;
+    font-size: 40px;
+}
+.centered p, .centered a{
+    text-align: center !important;
+    font-family: made-tommy !important;
+}
+.centered p{
+    padding: 15px 0 15px 0;
+}
+
+/* Card-box buttons settings */
+.button {
+    text-decoration: none;
+    color: #FFFFFF !important;
+    background: #402939;
+    border: solid #402939 !important;
+    padding: 7px 60px 7px 60px; /* top; right; bottom; left */
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.button:hover {
+    text-decoration: none;
+    color: #402939 !important;
+    background: #ffffff;
+    display: inline-block;
+    border: solid #402939 !important;
+    transition: all 0.3s ease 0s;
+}
+
+/* Footer configurations */
+.footer-copyright span {
+    color: white;
+ }
+.span-copyright a{
+    /* text-decoration: none !important; */
+    color: #fff !important;
+    font-size: 1rem !important;
+}
+.footer-copyright{
+     background-color: #402939;
+ }
+.footer h6{
+    padding-top: 7%;
+    text-align: justify;
+}
+
+#img-footer{
+    width: 500px;
+}
+
+.navbar-toggler{
+    display: none;
+    border: none !important;
+}
+.navbar-toggler-icon{
+    width: 4rem !important;
+    height: 3rem !important;
+}
+
+/* Ajustes tela grande desktop */
+@media screen and (min-width: 1900px) {
+    #div-img-footer{
+        margin-top: 5%;
+    }
+    #footer-icons{
+        margin-top: 5%;
+    }   
+    #comprar{
+        margin-top: 25%;
+    }
+}
+
+/* Ajustes tela ipad pro */
+@media screen and (min-width : 1024px) and (max-width : 1366px) {
+    .section-left{
+        padding-top: 30% !important;
+    }
+    .top-img{
+        margin-left: 12% !important;
+    }
+    .footer-copyright{
+        width: 100% !important;
+    }
+
+}
+/* Ajustes tela celular e ipads */
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    
+    /* Change background mobile */
+    body{
+        background-image: url('../img/bk3.png');
+        background-size: 3072px !important;
+    }
+
+    /* Larger font size  */
+    p{
+        font-size: 30px;
+    }
+
+    /* Larger navbar */
+    #navbar{
+        height: 7%;
+    }
+    /* Show navbar toggler */
+    .navbar-toggler{
+        display: block;
+    }
+    /* Larger font size */
+    .nav-components, .nav-link{
+        font-size: 35px;
+    }
+    /* Set no text decoration */
+    .nav-components a{
+        text-decoration-style: none !important;
+    }
+    /* Coffee img on top */
+    .top-img{
+        display: block !important;
+        width: 640px;
+        margin-left: 25%;
+        padding-top: 22%;
+    }
+    /* Set logotipo padding  */
+    .logo-phrase{
+        padding-top: 50%;
+    }
+
+    /* Hide doodle coffee img */
+    .section-left #img-coffee{
+        display: none !important;
+    }
+
+    /* Set configurations of palimpsesto section */
+    .section-left{
+        margin-top: 0;
+        margin-left: 10%;
+        padding-top: 55%;
+    }
+    .text1{
+        width: 800px;
+    }
+
+    /* Set configurations of metodologias section */
+    #div-metodologia{
+        padding-left: 10%;
+    }
+    .section-right{
+        margin-top: 10% !important;
+        margin-right: 9%;
+    }
+    #img-div{
+        display: none !important;
+    }
+    #img-div-2{
+        width: 600px;
+        float: right !important;
+        display: block !important;
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+    /* Set configurations of cursos ofertados section */
+    .courses-div{
+        width: auto;
+        background-color: #75243c85;
+    }
+    .container-cursos{
+        margin-left: 9% !important;
+        max-width: 800px !important;
+    }
+    .courses-title{
+        font-size: 40px;
+    }
+    /* Set configurations of comprar cursos section */
+    #comprar{
+        margin-top: 30%;
+    }
+    .card-box{
+        width: 450px;
+        padding-bottom: 8%;
+    }
+    .centered a{
+        font-size: 25px !important;
+    }
+    #img-reading{
+        display: none !important;
+    }
+
+    /* Set (off)canvas collapse configurations */
+    .offcanvas-collapse {
+        position: fixed;
+        top: 7%; /* Height of navbar */
+        bottom: 0;
+        right: 100%;
+        right:-450px;
+        width: 450px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-x: auto;
+        visibility: hidden;
+        background-color: #f8f9fa!important;
+        transition-timing-function: ease-in-out;
+        transition-duration: .3s;
+        transition-property: right, visibility;
+      }
+      .offcanvas-collapse {
+        align-items:start;
+        -moz-background-clip: padding;     /* Firefox 3.6 */
+        -webkit-background-clip: padding;  /* Safari 4, Chrome 6 */
+        background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    }
+    /* Makes the nav visibile with the open class */
+    .offcanvas-collapse.open {
+      right: 0;
+      visibility: visible;
+    }
+    /* Shows collapse */
+    #collapse{
+        display: block !important;
+    }
+    /* Hide dropdown */
+    .dropdown{
+        display: none !important;
+    }
+    /* Footer configurations */
+    .footer-copyright{
+        width: 995px;
+    }
+    .span-copyright, .span-copyright a{
+        font-size: 20px !important;
+    }
+    .h6-footer{
+        font-size: 25px;
+    }
+    /* Footer icons configuration */
+    .fa-2x {
+        font-size: 2.5em !important;
+    }
+    .row-div{
+        display: grid !important;
+    }
+}
+
