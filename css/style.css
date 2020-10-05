@@ -119,6 +119,7 @@ p{
 }
 /* Images configurations*/
 #img-coffee{
+    margin-left: 1%;
     margin-right: 10%;
     margin-top: 5%;
 }
@@ -259,10 +260,73 @@ p{
     }
 }
 
-/* Ajustes tela ipad pro */
-@media screen and (min-width : 1024px) and (max-width : 1366px) {
+/* medium desktops */
+@media screen and (min-width : 1401px) and (max-width : 1700px){
     .section-left{
-        padding-top: 30% !important;
+        padding-top: 5% !important;
+    }
+    #img-coffee{
+        margin-top: 12% !important;
+        width: 550px;
+        margin-right: 5%;
+    }
+    .text1{
+        width: 750px;
+    }
+    #img-div{
+        width: 500px;
+        margin-top: 10%;
+    }
+    .section-right {
+        margin-top: 5% !important;
+    }
+    .courses-div{
+        background-color: #75243c85;
+    }
+    #div-metodologia {
+        padding-left: 42%;
+    }
+}
+/* tiny desktops */
+@media screen and (min-width : 1280px) and (max-width : 1400px){
+    .section-left{
+        padding-top: 3% !important;
+    }
+    #img-coffee{
+        margin-top: 15% !important;
+        margin-right: 5%;
+        width: 475px;
+    }
+    .text1{
+        width: 650px;
+    }
+    #img-div{
+        width: 475px;
+        margin-top: 12%;
+        padding-left: 0;
+    }
+    .section-right {
+        margin-top: 5% !important;
+    }
+    .courses-div{
+        background-color: #75243c85;
+
+    }
+    .card-box{
+        width: 380px;
+    }
+    #div-metodologia{
+        padding-left: 42% !important;
+    }
+    #metodologia{
+
+    }
+}
+
+/* Ajustes tela ipad pro */
+@media screen and (min-width : 992px) and (max-width : 1279px) {
+    .section-left{
+        padding-top: 22% !important;
     }
     .top-img{
         margin-left: 12% !important;
@@ -270,10 +334,16 @@ p{
     .footer-copyright{
         width: 100% !important;
     }
-
+    .offcanvas-collapse {
+        top: 10% !important;
+    }
+    #navbar{
+        height: 10% !important;
+    }
 }
+
 /* Ajustes tela celular e ipads */
-@media screen and (min-width : 768px) and (max-width : 1024px) {
+@media screen and (min-width : 768px) and (max-width : 1279px) {
     
     /* Change background mobile */
     body{
@@ -429,4 +499,3 @@ p{
         display: grid !important;
     }
 }
-
