@@ -289,6 +289,10 @@ p{
 }
 /* tiny desktops */
 @media screen and (min-width : 1280px) and (max-width : 1400px){
+    .logo-phrase{
+        margin-top: 35%;
+    }
+
     .section-left{
         padding-top: 3% !important;
     }
@@ -317,9 +321,6 @@ p{
     }
     #div-metodologia{
         padding-left: 42% !important;
-    }
-    #metodologia{
-
     }
 }
 
@@ -499,3 +500,4 @@ p{
         display: grid !important;
     }
 }
+
