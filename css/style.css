@@ -27,7 +27,7 @@
 
 /* Set background */
 body{
-    background-image: url('../img/bk.png');
+    background-image: url('../img/new.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -143,11 +143,11 @@ p{
 
 /* Set section 3 color */
 #cursos{
-    color: #F4AE01;
+    color: #fff;
     text-align: center;
 }
 .courses-div h4, .courses-div p{
-    color: #F4AE01;
+    color: #fff;
 }
 
 /* Set delimitador */
@@ -215,6 +215,32 @@ p{
     display: inline-block;
     border: solid #402939 !important;
     transition: all 0.3s ease 0s;
+}
+
+
+/* Team Configurations */
+
+.container-team{
+    margin-top: 25%;
+}
+
+.img-perfil{
+    width: 500px;
+    float: left;
+    margin-right: 3rem;
+}
+
+#equipe{
+    text-align: center;
+}
+
+.icons-perfil{
+    font-family: made-tommy;
+}
+
+.icons-perfil:hover{
+    text-decoration: none;
+    opacity: 80%;
 }
 
 /* Footer configurations */
@@ -348,7 +374,7 @@ p{
     
     /* Change background mobile */
     body{
-        background-image: url('../img/bk3.png');
+        background-image: url('../img/mobile.png');
         background-size: 3072px !important;
     }
 
@@ -443,6 +469,23 @@ p{
     }
     #img-reading{
         display: none !important;
+    }
+
+    /* Set team configurations */
+    .container-team{
+        margin-top: 20%;
+    }
+
+    .img-perfil{
+        display: block;
+        margin-right: auto !important;
+        margin-left: auto;
+        margin-bottom: 3rem;
+        float: none;
+    }
+
+    .icons-perfil{
+        font-size: 30px;
     }
 
     /* Set (off)canvas collapse configurations */
